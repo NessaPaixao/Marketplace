@@ -56,7 +56,7 @@ const Cadastro = () => {
         <Input 
           value={nome} 
           type="text" 
-          label="Nome" 
+          label="Nome Completo" 
           placeholder="Nome completo" 
           obrigatorio
           atualizarState={setNome}/>

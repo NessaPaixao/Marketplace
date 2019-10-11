@@ -1,7 +1,7 @@
 .Home{
     display:flex;
         header{
-            height: 550px;
+            height: 600px;
             margin-top: 20px;
             margin-left: 40px;
             display: flex;
@@ -12,16 +12,18 @@
             font-size: 18pt;
             img{
                 border-radius: 20%;
+                height: 350px;
+                width: 400px;
             }
             button{
                 background-color: rgb(147, 219, 224);
                 color: white;
                 margin: 20px;
                 font-weight: 600;
-                height: 40px;
-                width: 100px;
+                height: 50px;
+                width: 200px;
                 border-radius: 20%;
-                border: 1px solid black;
+                border: 1px solid white;
                 font-family: 'Courier New', Courier, monospace;
                 cursor: pointer;
                 
