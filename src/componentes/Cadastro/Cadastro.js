@@ -40,6 +40,7 @@ const Cadastro = () => {
       setConfirmEmail("");
       setSenha("");
       resposta("Cadastrado com sucesso")
+      window.open("http://localhost:3000/produtos")
       
       
     } else{
@@ -82,7 +83,7 @@ const Cadastro = () => {
           placeholder="Digite sua senha" 
           obrigatorio
           atualizarState={setSenha}/>
-        <Link to="/produtos"> <button>Cadastrar</button> </Link>
+       <button>Cadastrar</button>
       </form>
     </div>
    

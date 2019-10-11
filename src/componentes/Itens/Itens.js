@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import './Itens.scss'
 import Botão from '../Botão/Botão';
+import {Link} from 'react-router-dom';
 
-const Itens = ({nome, imagem, preço,}) => {
+const Itens = ({nome, imagem, preço}) => {
   const [quantidade, setQuantidade] = useState (0);
 
   const Adicionar =() =>{
@@ -14,7 +15,6 @@ const Itens = ({nome, imagem, preço,}) => {
     setQuantidade(quantidade - 1)
   }
 
-
     return (
       <div className="itens">
         <img src={imagem} alt=""/>
@@ -23,7 +23,7 @@ const Itens = ({nome, imagem, preço,}) => {
         <h4>{quantidade}</h4>
         <button onClick={Remover}>-</button>
         <button onClick={Adicionar}>+</button>
-        <Botão>Comprar</Botão>
+        <Link to="/carrinho"> <Botão>Comprar</Botão></Link>
       </div>
      
     )

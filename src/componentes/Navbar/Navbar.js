@@ -26,13 +26,13 @@ const Navbar = () => {
         <Link onClick={fecharMenu} to="/">Home</Link>
         <Link onClick={fecharMenu} to="/Cadastro">Cadastro</Link>
         <Link onClick={fecharMenu} to="/Produtos">Produtos</Link>
-        <Link onClick={fecharMenu} to="/Contato">Fale conosco</Link>
+        <Link onClick={fecharMenu} to="/Contato">Carrinhos de compras</Link>
       </section>
       <div className="ancorasDesktop">
         <Link to="/">Home</Link>
         <Link to="/Cadastro">Cadastro</Link>
         <Link to="/Produtos">Produtos</Link>
-        <Link to="/Contato">Fale conosco</Link>
+        <Link to="/Contato">Carrinhos de compras</Link>
       </div>
 
     </div>
