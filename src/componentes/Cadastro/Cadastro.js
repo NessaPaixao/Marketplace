@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Input from '../Input/Input';
+import {Link} from 'react-router-dom';
 import './Cadastro.scss'
 
 
