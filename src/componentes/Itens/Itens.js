@@ -7,8 +7,10 @@ const Itens = ({nome, imagem, preço,}) => {
     return (
       <div className="itens">
         <img src={imagem} alt=""/>
-        <h2 nome={nome} ></h2>
-        <h4 preço={preço} ></h4>
+        <h2>{nome}</h2>
+        <h4>{preço}</h4>
+        <button>-</button>
+        <button>+</button>
         <Botão>Comprar</Botão>
       </div>
      

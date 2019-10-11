@@ -5,9 +5,9 @@ import Itens from '../Itens/Itens';
 const Produtos = () => {
     return (
       <div >
-        <Itens>
+        <Itens nome="Sorvete de oreo" imagem={} preço="5">
         </Itens>
-
+        
       </div>
      
     )
