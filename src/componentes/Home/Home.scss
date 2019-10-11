@@ -2,23 +2,25 @@
     display:flex;
         header{
             height: 550px;
-            margin-top: 50px;
-            margin-left: 50px;
+            margin-top: 20px;
+            margin-left: 40px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
             font-family: 'Courier New', Courier, monospace;
+            font-size: 18pt;
             img{
                 border-radius: 20%;
             }
             button{
-                background-color: crimson;
-                color: white;;
+                background-color: rgb(147, 219, 224);
+                color: white;
+                margin: 20px;
                 font-weight: 600;
-                height: 25px;
+                height: 40px;
                 width: 100px;
-                border-radius: 2%;
+                border-radius: 20%;
                 border: 1px solid black;
                 font-family: 'Courier New', Courier, monospace;
                 cursor: pointer;

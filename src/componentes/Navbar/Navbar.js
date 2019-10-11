@@ -25,7 +25,16 @@ const Navbar = () => {
       <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
         <Link onClick={fecharMenu} to="/">Home</Link>
         <Link onClick={fecharMenu} to="/Cadastro">Cadastro</Link>
+        <Link onClick={fecharMenu} to="/Produtos">Produtos</Link>
+        <Link onClick={fecharMenu} to="/Contato">Fale conosco</Link>
       </section>
+      <div className="ancorasDesktop">
+        <Link to="/">Home</Link>
+        <Link to="/Cadastro">Cadastro</Link>
+        <Link to="/Produtos">Produtos</Link>
+        <Link to="/Contato">Fale conosco</Link>
+      </div>
+
     </div>
   );
 };
