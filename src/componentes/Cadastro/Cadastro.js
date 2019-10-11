@@ -82,7 +82,7 @@ const Cadastro = () => {
           placeholder="Digite sua senha" 
           obrigatorio
           atualizarState={setSenha}/>
-        <button>Cadastrar</button>
+        <Link to="/produtos"> <button>Cadastrar</button> </Link>
       </form>
     </div>
    
